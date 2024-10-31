@@ -1,0 +1,84 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo de la página */
+body {
+    font-family: 'Cinzel', serif; /* Fuente estilo medieval */
+    background: linear-gradient(to bottom, #2e2b25, #1a1814); /* Fondo de degradado oscuro */
+    color: #f5f5dc; /* Color de texto estilo pergamino */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    padding: 2rem;
+    background-color: rgba(30, 28, 24, 0.8); /* Fondo semitransparente */
+    border: 2px solid #8b4513; /* Borde estilo madera */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+/* Título */
+h1 {
+    font-size: 3rem;
+    color: #d4af37; /* Color dorado */
+    text-shadow: 3px 3px 6px #000; /* Sombra para efecto de profundidad */
+    margin-bottom: 1rem;
+}
+
+/* Mensaje principal */
+.message {
+    font-size: 1.5rem;
+    color: #f5f5dc; /* Texto de color pergamino */
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+/* Mensaje de "Próximamente" */
+.coming-soon {
+    font-size: 1.3rem;
+    color: #d4af37;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Nota final */
+.note {
+    font-size: 1rem;
+    color: #c0b283;
+    font-style: italic;
+}
+
+/* Estilo de la sección del equipo */
+.team-section {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #8b4513; /* Línea para separar visualmente */
+}
+
+.team-section h2 {
+    font-size: 2rem;
+    color: #d4af37;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.team-list {
+    list-style-type: none;
+    padding: 0;
+    color: #f5f5dc; /* Color pergamino */
+}
+
+.team-list li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
