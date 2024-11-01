@@ -13,9 +13,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 2rem;
     text-align: center;
 }
+
+/* Estilo para el aula */
+.classroom {
+    font-size: 1.2rem;
+    color: #c0b283;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}   
 
 /* Contenedor principal */
 .container {
@@ -35,30 +43,7 @@ h1 {
     margin-bottom: 1rem;
 }
 
-/* Mensaje principal */
-.message {
-    font-size: 1.5rem;
-    color: #f5f5dc; /* Texto de color pergamino */
-    margin-bottom: 1rem;
-    font-style: italic;
-}
-
-/* Mensaje de "Próximamente" */
-.coming-soon {
-    font-size: 1.3rem;
-    color: #d4af37;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-/* Nota final */
-.note {
-    font-size: 1rem;
-    color: #c0b283;
-    font-style: italic;
-}
-
-/* Estilo de la sección del equipo */
+/* Sección del equipo */
 .team-section {
     margin-top: 2rem;
     padding-top: 1rem;
@@ -81,4 +66,27 @@ h1 {
 .team-list li {
     margin: 0.5rem 0;
     font-size: 1.1rem;
+}
+
+/* Sección de historia */
+.story-section h2 {
+    font-size: 2rem;
+    color: #d4af37;
+    margin: 1.5rem 0;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.story-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+/* Estilo para las imágenes de la historia */
+.story-section img {
+    width: 100%;
+    max-height: 300px;
+    margin: 1rem 0;
+    border: 2px solid #8b4513;
+    border-radius: 8px;
 }
