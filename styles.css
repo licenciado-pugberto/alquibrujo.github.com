@@ -1,15 +1,13 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Fondo de la página */
 body {
-    font-family: 'Cinzel', serif; /* Fuente estilo medieval */
-    background: linear-gradient(to bottom, #2e2b25, #1a1814); /* Fondo de degradado oscuro */
-    color: #f5f5dc; /* Color de texto estilo pergamino */
+    font-family: 'Cinzel', serif; 
+    background: linear-gradient(to bottom, #2e2b25, #1a1814); 
+    color: #f5f5dc; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +15,6 @@ body {
     text-align: center;
 }
 
-/* Estilo para el aula */
 .classroom {
     font-size: 1.2rem;
     color: #c0b283;
@@ -25,29 +22,27 @@ body {
     margin-bottom: 1.5rem;
 }   
 
-/* Contenedor principal */
 .container {
     max-width: 600px;
     padding: 2rem;
-    background-color: rgba(30, 28, 24, 0.8); /* Fondo semitransparente */
-    border: 2px solid #8b4513; /* Borde estilo madera */
+    background-color: rgba(30, 28, 24, 0.8); 
+    border: 2px solid #8b4513; 
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
 
-/* Título */
 h1 {
     font-size: 3rem;
-    color: #d4af37; /* Color dorado */
-    text-shadow: 3px 3px 6px #000; /* Sombra para efecto de profundidad */
+    color: #d4af37; 
+    text-shadow: 3px 3px 6px #000; 
     margin-bottom: 1rem;
 }
 
-/* Sección del equipo */
+
 .team-section {
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 1px solid #8b4513; /* Línea para separar visualmente */
+    border-top: 1px solid #8b4513; 
 }
 
 .team-section h2 {
@@ -60,7 +55,7 @@ h1 {
 .team-list {
     list-style-type: none;
     padding: 0;
-    color: #f5f5dc; /* Color pergamino */
+    color: #f5f5dc; 
 }
 
 .team-list li {
@@ -68,7 +63,6 @@ h1 {
     font-size: 1.1rem;
 }
 
-/* Sección de historia */
 .story-section h2 {
     font-size: 2rem;
     color: #d4af37;
@@ -82,7 +76,6 @@ h1 {
     margin: 1rem 0;
 }
 
-/* Estilo para las imágenes de la historia */
 .story-section img {
     width: 100%;
     max-height: 300px;
